@@ -1,0 +1,71 @@
+{
+    "homePage": {
+        "resumeButton": "About Me",
+        "contactButton": "Get in Touch"
+    },
+    "navbarTabs": {
+        "homePage": "Home",
+        "about": "About me",
+        "contacts": "Contacts",
+        "download": "Download Resume"
+    },
+    "aboutMeSection": {
+        "title": "I'm a",
+        "titleHighlight": "Software Engineer",
+        "description": "with 5 years of experience specializing in back-end development using Java (JSF and Spring) and Python for automation and web scraping. Some experience with Node.js, focusing on building BFF (Backend-for-Frontend) architectures and integrating microservices. On the front-end, I have working knowledge with frameworks like React, Vue.js, and Angular, as well as experience using HTML and CSS.|Extensive experience collaborating with multidisciplinary teams in agile environments, applying methodologies like Scrum and Kanban. I actively solve critical problems in financial systems, ensuring efficient operations and robust implementations. Strong communication skills facilitate the transformation of complex requirements into practical and high-impact solutions.|My background in critical systems for the financial market has equipped me to work under pressure, collaborate effectively in teams, and deliver results in high-stakes scenarios.",
+        "downloadBtn": "Download Resume"
+    },
+    "backEndStack": {
+        "title": "Back-end Development",
+        "tools": "Java (JSF, Spring) | Python | NodeJs | Kafka | FIX Protocol | Microservices | Data Structures | Algorithms"
+    },
+    "frontEndStack": {
+        "title": "Front-end Development",
+        "tools": "Javascript | React | Angular | VueJs | HTML | CSS | Bootstrap | Tailwind"
+    },
+    "databases": {
+        "title": "Databases",
+        "tools": "Mysql | PostgreSQL | Redis | DynamoDB"
+    },
+    "cloudAndTools": {
+        "title": "Cloud & Tools",
+        "tools": "AWS | Docker | JIRA | OpenTelemetry | DataDog"
+    },
+    "professionalCarrerSection": {
+        "title": "Professional Carrer"
+    },
+    "warren": {
+        "location": "São Paulo - SP, Brazil",
+        "startDate": "August, 2017",
+        "endDate": "November, 2024",
+        "activities": "Developed web applications and microservices using Java, Python, Node.js, and Vue.js.|Automated internal processes with VBA, optimizing data workflows in Excel.|Participated in the full software development lifecycle, from architectural design to deployment (Docker, AWS) and monitoring (DataDog, OpenTelemetry).|Refactored legacy systems, enhancing visibility, performance, and removing redundant code.|Optimized internal processes, improving operational efficiency by up to 80%.| Integrated systems with institutions like B3 and BACEN, reducing operational errors and associated costs.|Actively supported critical incidents, collaborating with internal teams and clients."
+    },
+    "educationSection": {
+        "title": "Education"
+    },
+    "graduation": {
+        "title": "Computer Engineering",
+        "type": "Bachelor",
+        "university": "FIAP",
+        "startDate": "January, 2017",
+        "endDate": "December, 2021"
+    },
+    "postGraduation": {
+        "title": "MBA in Software Engineering",
+        "type": "Postgraduate",
+        "university": "FIAP",
+        "startDate": "May, 2024",
+        "endDate": "Expected Completion: 2025"
+    },
+    "contactMePage": {
+        "title": "Contact me",
+        "nameInput": "Name",
+        "emailInput": "E-mail",
+        "subjectInput": "Subject",
+        "messageInput": "Message",
+        "sendButton": "Send"
+    },
+    "footer": {
+        "text": "Last updated"
+    }
+}

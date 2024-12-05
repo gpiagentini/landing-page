@@ -1,0 +1,71 @@
+{
+    "homePage": {
+        "resumeButton": "Sobre Mim",
+        "contactButton": "Entrar em Contato"
+    },
+    "navbarTabs": {
+        "homePage": "Início",
+        "about": "Sobre mim",
+        "contacts": "Contatos",
+        "download": "Download Currículo"
+    },
+    "aboutMeSection": {
+        "title": "Sou um",
+        "titleHighlight": "Engenheiro de Software",
+        "description": "com 5 anos de experiência, especializado em desenvolvimento back-end utilizando Java (JSF e Spring) e Python para automação e web-scraping. Possuo também experiência com Node.js, especialmente na construção de arquiteturas BFF (Backend-for-Frontend) e integração de microsserviços. No front-end, tenho conhecimentos sólidos em frameworks como React, Vue.js e Angular, além de habilidades com HTML e CSS.|Possuo ampla experiência em colaboração com equipes multidisciplinares, atuando em ambientes ágeis com metodologias como Scrum, além de participar ativamente da resolução de problemas críticos em sistemas financeiros, garantindo operações eficientes e implementações robustas.|Por ter trabalhado em sistemas críticos voltados ao mercado financeiro, tenho experiência em resolução de problemas sob pressão e trabalho em equipe, além de desenvolver boa comunicação para entender requisitos e abstraí-los para funcionalidades nos sistemas.",
+        "downloadBtn": "Baixar Currículo"
+    },
+    "backEndStack": {
+        "title": "Desenvolvimento Back-end",
+        "tools": "Java (JSF e Spring) | Python | NodeJs | Kafka | Protocolo FIX | Microserviços | Estruturas de Dados | Algorítmos"
+    },
+    "frontEndStack": {
+        "title": "Desenvolvimento Front-end",
+        "tools": "Javascript | React | Angular | VueJs | HTML | CSS | Bootstrap | Tailwind"
+    },
+    "databases": {
+        "title": "Banco de dados",
+        "tools": "Mysql | PostgreSQL | Redis | DynamoDB"
+    },
+    "cloudAndTools": {
+        "title": "Computação em Nuvem e Ferramentas",
+        "tools": "AWS | Docker | JIRA | OpenTelemetry | DataDog"
+    },
+    "professionalCarrerSection": {
+        "title": "Jornada Profissional"
+    },
+    "warren": {
+        "location": "São Paulo - SP, Brasil",
+        "startDate": "Agosto, 2017",
+        "endDate": "Novembro, 2024",
+        "activities": "Desenvolvi aplicações web e microserviços utilizando Java (JSF e Spring), Python, NodeJs e VueJs.|Desenvolvi automações e integrações de dados em planilhas Excel por meio de VBA.|Participei de todo ciclo de vida das aplicações, envolvendo o desenho inicial de arquitetura, desenvolvimento, testes, deploy (Docker e AWS) e monitoramento (DataDog, OpenTelemetry).|Refatorei projetos legado, removendo códigos desnecessários e melhorando a visibilidade e performance.|Otimizei processos internos, melhorando em até 80% a velocidade de atuação dos times responsáveis.|Participei de integrações envolvendo clientes e instituições como B3 e o BACEN, visando automatizar processos e mitigar erros operacionais, que poderiam acarretar em custos e problemas envolvendo o relacionamento com clientes.|Participei ativamente na sustentação de problemas críticos, envolvendo times internos, clientes e processos operacionais."
+    },
+    "educationSection": {
+        "title": "Formação Academica"
+    },
+    "graduation": {
+        "title": "Engenharia de Computação",
+        "type": "Bacharelado",
+        "university": "FIAP",
+        "startDate": "Janeiro de 2017",
+        "endDate": "Dezembro de 2021"
+    },
+    "postGraduation": {
+        "title": "MBA em Engenharia de Software",
+        "type": "Pós Graduação",
+        "university": "FIAP",
+        "startDate": "Maio de 2024",
+        "endDate": "Previsão de conclusão: 2025"
+    },
+    "contactMePage": {
+        "title": "Entre em Contato",
+        "nameInput": "Nome",
+        "emailInput": "E-mail",
+        "subjectInput": "Assunto",
+        "messageInput": "Mensagem",
+        "sendButton": "Enviar"
+    },
+    "footer": {
+        "text": "Data última atualização"
+    }
+}
