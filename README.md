@@ -5,7 +5,7 @@
 This project is a landing page for my personal website. 
 It includes some functionalities, such as a button, to download my resume, and a form to get in touch with me.
 
-[Access here!](www.gpiagentini.com/en)
+[Access here!](https://www.gpiagentini.com/en)
 
 ---
 
