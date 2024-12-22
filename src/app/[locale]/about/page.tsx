@@ -89,9 +89,14 @@ export default function Page({ params }: PageProps) {
                         <div className="p-2 border rounded-lg place-content-center select-none hover:bg-green-800/80 cursor-pointer bg-background-main"
                             onClick={() => setShowContent(!showContent)}>
                             <div className="text-center">
-                                <p>Renascença DTVM | Warren Investimentos</p>
-                                <p className="text-sm shadowed-color">{warrenContent("startDate")} - {warrenContent("endDate")} </p>
-                                <p className="text-sm shadowed-color"> Software Engineer II </p>
+                                <div className="flex flex-cols justify-center gap-5">
+                                    <div>
+                                        <p>Renascença DTVM | Warren Investimentos</p>
+                                        <p className="text-sm shadowed-color">{warrenContent("startDate")} - {warrenContent("endDate")} </p>
+                                        <p className="text-sm shadowed-color"> Software Engineer II </p>
+                                    </div>
+                                    <img className={`transition-all ${showContent ? "rotate-180" : "rotate-0"}`} src="/arrow-down-icon.svg" width={25} alt="Arrow Down Icon" />
+                                </div>
                             </div>
                             <div className={`overflow-hidden transition-[max-height] duration-700  ${showContent ? "max-h-[800px]" : "max-h-0"}`}>
                                 <ul className="list-disc align-left mt-2 pl-5">
