@@ -18,8 +18,8 @@ export default function Page({ params }: PageProps) {
         <GlitchText>Gabriel Martins Teixeira Piagentini</GlitchText>
         <LanguageSwitcher locale={locale}></LanguageSwitcher>
         <div className="grid grid-cols-2 gap-5">
-          <Link className="border-2 border-green-900 p-3 rounded-md text-center" href={`/${locale}/about`}> {homePageContent("resumeButton")} </Link>
-          <Link className="border-2 border-green-900 p-3 rounded-md text-center" href={`/${locale}/contacts`}> {homePageContent("contactButton")} </Link>
+          <Link className="border-2 border-green-900 p-3 rounded-md text-center transition hover:scale-95" href={`/${locale}/about`}> {homePageContent("resumeButton")} </Link>
+          <Link className="border-2 border-green-900 p-3 rounded-md text-center transition hover:scale-95" href={`/${locale}/contacts`}> {homePageContent("contactButton")} </Link>
         </div>
       </div>
     </div>
