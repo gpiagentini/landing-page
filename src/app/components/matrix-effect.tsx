@@ -12,7 +12,7 @@ export default function MatrixEffect() {
     }, []);
 
     return (
-        <div className="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-20 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-25 overflow-hidden">
             {columns.map((_, index) => (
                 <Column key={index} delay={Math.random() * 5} />
             ))}

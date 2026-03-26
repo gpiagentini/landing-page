@@ -20,11 +20,15 @@ function downloadPDF() {
 
 export default function Page({ params }: PageProps) {
     const [showContent, setShowContent] = useState<boolean>(false);
+    const [showSantanderContent, setShowSantanderContent] = useState<boolean>(false);
+    const [showBtgContent, setShowBtgContent] = useState<boolean>(false);
     const [locale, setLocale] = useState<string>("");
     params.then((p) => setLocale(p.locale));
     const aboutMeSection = useTranslations("aboutMeSection");
     const professionalCarrerContent = useTranslations("professionalCarrerSection");
     const warrenContent = useTranslations("warren");
+    const santanderContent = useTranslations("santander");
+    const btgContent = useTranslations("btg");
     const backEndContent = useTranslations("backEndStack");
     const frontEndContent = useTranslations("frontEndStack");
     const databaseContent = useTranslations("databases");
@@ -32,6 +36,7 @@ export default function Page({ params }: PageProps) {
     const educationSection = useTranslations("educationSection");
     const graduationContent = useTranslations("graduation");
     const postGraduationContent = useTranslations("postGraduation");
+    const projectsSection = useTranslations("projectsSection");
 
 
     return (
@@ -109,6 +114,56 @@ export default function Page({ params }: PageProps) {
                             </div>
                         </div>
                     </div>
+                    <br/>
+                    <div className="grid grid-cols-1 w-full gap-10 z-10">
+                        <div className="p-2 border rounded-lg place-content-center select-none hover:bg-green-800/80 cursor-pointer bg-background-main"
+                            onClick={() => setShowSantanderContent(!showSantanderContent)}>
+                            <div className="text-center">
+                                <div className="flex flex-cols justify-center gap-5">
+                                    <div>
+                                        <p>BRQ | Santander</p>
+                                        <p className="text-sm shadowed-color">{santanderContent("startDate")} - {santanderContent("endDate")} </p>
+                                        <p className="text-sm shadowed-color"> Senior Software Developer </p>
+                                    </div>
+                                    <img className={`transition-all ${showSantanderContent ? "rotate-180" : "rotate-0"}`} src="/arrow-down-icon.svg" width={25} alt="Arrow Down Icon" />
+                                </div>
+                            </div>
+                            <div className={`overflow-hidden transition-[max-height] duration-700  ${showSantanderContent ? "max-h-[800px]" : "max-h-0"}`}>
+                                <ul className="list-disc align-left mt-2 pl-5">
+                                    {
+                                        santanderContent("activities").split("|").map((activity: string, index: number) => {
+                                            return <li key={index}>{activity}</li>
+                                        })
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div className="grid grid-cols-1 w-full gap-10 z-10">
+                        <div className="p-2 border rounded-lg place-content-center select-none hover:bg-green-800/80 cursor-pointer bg-background-main"
+                            onClick={() => setShowBtgContent(!showBtgContent)}>
+                            <div className="text-center">
+                                <div className="flex flex-cols justify-center gap-5">
+                                    <div>
+                                        <p>DQR | BTG Pactual</p>
+                                        <p className="text-sm shadowed-color">{btgContent("startDate")} - {btgContent("endDate")} </p>
+                                        <p className="text-sm shadowed-color"> Senior Software Developer </p>
+                                    </div>
+                                    <img className={`transition-all ${showBtgContent ? "rotate-180" : "rotate-0"}`} src="/arrow-down-icon.svg" width={25} alt="Arrow Down Icon" />
+                                </div>
+                            </div>
+                            <div className={`overflow-hidden transition-[max-height] duration-700  ${showBtgContent ? "max-h-[800px]" : "max-h-0"}`}>
+                                <ul className="list-disc align-left mt-2 pl-5">
+                                    {
+                                        btgContent("activities").split("|").map((activity: string, index: number) => {
+                                            return <li key={index}>{activity}</li>
+                                        })
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section id="education" className="flex flex-col p-5 w-4/5">
@@ -124,6 +179,31 @@ export default function Page({ params }: PageProps) {
                             <p><b>{graduationContent("title")}</b></p>
                             <p className="md:text-sm shadowed-color">{graduationContent("university")} | {graduationContent("type")}</p>
                             <p className="md:text-sm shadowed-color">{graduationContent("startDate")} - {graduationContent("endDate")}</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" className="flex flex-col p-5 w-4/5">
+                    <p className="self-center font-rubik text-2xl">{projectsSection("title")}</p>
+                    <br />
+                    <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 z-10">
+                        <div className="border rounded-lg p-4 bg-background-main">
+                            <p className="text-lg"><b>{projectsSection("inotecSystem")}</b></p>
+                            <p className="text-sm shadowed-color mt-2">{projectsSection("inotecSummary")}</p>
+                            <ul className="list-disc mt-3 pl-5">
+                                {projectsSection("inotecSpecs").split("|").map((spec: string, index: number) => {
+                                    return <li key={index}>{spec}</li>
+                                })}
+                            </ul>
+                        </div>
+                        <div className="border rounded-lg p-4 bg-background-main">
+                            <p className="text-lg"><b>{projectsSection("efCapital")}</b></p>
+                            <p className="text-sm shadowed-color mt-2">{projectsSection("efCapitalSummary")}</p>
+                            <ul className="list-disc mt-3 pl-5">
+                                {projectsSection("efCapitalSpecs").split("|").map((spec: string, index: number) => {
+                                    return <li key={index}>{spec}</li>
+                                })}
+                            </ul>
                         </div>
                     </div>
                 </section>

@@ -12,12 +12,12 @@
     "aboutMeSection": {
         "title": "I'm a",
         "titleHighlight": "Software Engineer",
-        "description": "with 5 years of experience specializing in back-end development using Java (JSF and Spring) and Python for automation and web scraping. Some experience with Node.js, focusing on building BFF (Backend-for-Frontend) architectures and integrating microservices. On the front-end, I have working knowledge with frameworks like React, Vue.js, and Angular, as well as experience using HTML and CSS.|Extensive experience collaborating with multidisciplinary teams in agile environments, applying methodologies like Scrum and Kanban. I actively solve critical problems in financial systems, ensuring efficient operations and robust implementations. Strong communication skills facilitate the transformation of complex requirements into practical and high-impact solutions.|My background in critical systems for the financial market has equipped me to work under pressure, collaborate effectively in teams, and deliver results in high-stakes scenarios.",
+        "description": "with 6 years of experience focused on back-end development using Java (Spring), Node.js, and Python to build web applications, microservices, and system integrations. On the front-end, I also have hands-on experience with React, Vue.js, Angular, HTML, and CSS. During my career, I have worked across new projects, production support, and continuous improvements, building solid experience in:| * Software architecture: monolithic and distributed systems (microservices), architecture design, component definition, cloud services (AWS), and communication between systems.| * High-performance and scalable software development: building robust APIs with clear documentation and automated tests, delivering safe and performant solutions with idempotent implementations, concurrency and transaction control, and good design practices.| * Databases: modeling, queries, and operations in relational databases (Oracle, PostgreSQL, MySQL) and non-relational databases (Redis, DynamoDB).| * Collaboration with multidisciplinary teams: working in agile environments such as Scrum and actively helping solve critical issues in financial systems to keep operations running smoothly.| * Monitoring and logging: applying observability best practices to improve visibility and speed up incident detection and resolution.",
         "downloadBtn": "Download Resume"
     },
     "backEndStack": {
         "title": "Back-end Development",
-        "tools": "Java (JSF, Spring) | Python | NodeJs | Kafka | FIX Protocol | Microservices | Data Structures | Algorithms"
+        "tools": "Java (Spring Boot) | Python | NodeJs | Kafka | Microservices | Data Structures & Algorithms"
     },
     "frontEndStack": {
         "title": "Front-end Development",
@@ -25,20 +25,41 @@
     },
     "databases": {
         "title": "Databases",
-        "tools": "Mysql | PostgreSQL | Redis | DynamoDB"
+        "tools": "Mysql | PostgreSQL | Redis"
     },
     "cloudAndTools": {
         "title": "Cloud & Tools",
-        "tools": "AWS | Docker | JIRA | OpenTelemetry | DataDog"
+        "tools": "AWS | Docker | JIRA / Monday | DataDog | Cursor AI | Github Copilot" 
     },
     "professionalCarrerSection": {
-        "title": "Professional Carrer"
+        "title": "Professional Career"
     },
     "warren": {
         "location": "São Paulo - SP, Brazil",
         "startDate": "August, 2017",
         "endDate": "November, 2024",
         "activities": "Developed web applications and microservices using Java, Python, Node.js, and Vue.js.|Automated internal processes with VBA, optimizing data workflows in Excel.|Participated in the full software development lifecycle, from architectural design to deployment (Docker, AWS) and monitoring (DataDog, OpenTelemetry).|Refactored legacy systems, enhancing visibility, performance, and removing redundant code.|Optimized internal processes, improving operational efficiency by up to 80%.| Integrated systems with institutions like B3 and BACEN, reducing operational errors and associated costs.|Actively supported critical incidents, collaborating with internal teams and clients."
+    },
+    "santander": {
+        "location": "São Paulo - SP, Brazil",
+        "startDate": "March, 2025",
+        "endDate": "July, 2025",
+        "activities": "Worked on integrations between internal and third-party systems to automate processes, cutting processing time by up to 60% and reducing operational errors.|Modeled and developed procedures in relational databases (Oracle, PostgreSQL).|Joined architecture discussions, component definition, and API contract design before implementation started.|Improved and fixed issues in legacy systems."
+    },
+    "btg": {
+        "location": "São Paulo - SP, Brazil",
+        "startDate": "July, 2025",
+        "endDate": "Present",
+        "activities": "Working on microservices projects to deliver new features, optimize processes, and automate manual tasks widely used by both operations teams and external clients.|Developing improvements and bug fixes in existing systems.|Designing and evolving relational database models (Oracle, PostgreSQL).|Participating in architecture discussions, component definition, and API contract design.|Actively using AWS services such as S3, SQS, SNS, and EC2."
+    },
+    "projectsSection": {
+        "title": "Projects",
+        "inotecSystem": "Inotec System",
+        "inotecSummary": "Temperature monitoring platform with connected sensors and a management dashboard.",
+        "inotecSpecs": "ESP32 devices reading temperature and publishing via MQTT to AWS IoT Core.|Amazon SQS queue receiving readings for decoupled processing.|PostgreSQL storing sensor telemetry and historical data.|Web page to manage sensors and inspect each sensor's readings.",
+        "efCapital": "EF Capital",
+        "efCapitalSummary": "Data intelligence platform for Brazilian companies, focused on filtering and enrichment.",
+        "efCapitalSpecs": "Spring Batch pipeline processing files with millions of records.|Amazon SQS distributing lines/messages for parallel company processing.|PostgreSQL persistence layer for normalized and searchable company data.|Filtering workflow based on company characteristics plus manual enrichment.|Amazon Cognito used to isolate and secure data by user/account."
     },
     "educationSection": {
         "title": "Education"
@@ -55,7 +76,7 @@
         "type": "Postgraduate",
         "university": "FIAP",
         "startDate": "May, 2024",
-        "endDate": "Expected Completion: 2025"
+        "endDate": "May, 2025"
     },
     "contactMePage": {
         "title": "Contact me",
